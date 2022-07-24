@@ -1,2 +1,20 @@
-body {
-  background-color: blue; }
+main {
+  background-color: white;
+  border: solid 5px black;
+  min-height: 1000px; }
+  main .refreshApi {
+    padding: 100px;
+    margin: 50px;
+    display: block;
+    border-radius: 50%; }
+  main .watchYouTube {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 50px;
+    display: block; }
+
+div {
+  border: solid 5px black;
+  margin: 10px; }
