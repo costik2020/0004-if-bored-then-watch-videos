@@ -1,4 +1,4 @@
-console.log("hellow there");
+
 
 let boredResponse;
 let url;
@@ -44,9 +44,22 @@ refreshApi.addEventListener( "click", (e)=>{
 		window.open(url, '_blank');
 
 	  } )
+	  .catch( (error)=>{
+		  console.log("Sorry something went wrong :(");
+	  } )
 
 
 
 } );
+
+
+
+
+
+
+
+
+
+
 
 

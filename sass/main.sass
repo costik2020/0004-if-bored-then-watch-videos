@@ -1,18 +1,46 @@
 $color1: white
 $myBorder: solid 5px black
+//$myBackground: "images/many-clocks.jpg"
+
+body
+	background-image: url("../images/many-clocks.jpg")
+
+//.filter-me
+  //filter: blur(3px)
+  //filter: grayscale(1)
+  //filter: saturate(2.2)
+
+  // remove existing filter
+  //filter: none;
+
+.container
+	background-color: rgba(255, 255, 255, 0.7)
+
+
 
 main
-	background-color: $color1
-	border: $myBorder
-	min-height: 1000px
+
+	//border: $myBorder
+	min-height: 27em
+	font-size: 2em
+
+	h1
+		color: #e23131
+		text-indent: 0.5em
 
 	.refreshApi
+		font-size: 1em
 		padding: 100px
 		//height: 100px
 		//width: 100px
 		margin: 50px
 		display: block
 		border-radius: 50%
+
+	.refreshApi:hover
+		background-color: #ff9999
+	.refreshApi:active
+		background-color: #ff1a1a
 
 	.watchYouTube
 		padding-top: 10px
@@ -25,5 +53,5 @@ main
 
 
 div
-	border: $myBorder
+	//border: $myBorder
 	margin: 10px

@@ -1,12 +1,25 @@
+body {
+  background-image: url("../images/many-clocks.jpg"); }
+
+.container {
+  background-color: rgba(255, 255, 255, 0.7); }
+
 main {
-  background-color: white;
-  border: solid 5px black;
-  min-height: 1000px; }
+  min-height: 27em;
+  font-size: 2em; }
+  main h1 {
+    color: #e23131;
+    text-indent: 0.5em; }
   main .refreshApi {
+    font-size: 1em;
     padding: 100px;
     margin: 50px;
     display: block;
     border-radius: 50%; }
+  main .refreshApi:hover {
+    background-color: #ff9999; }
+  main .refreshApi:active {
+    background-color: #ff1a1a; }
   main .watchYouTube {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -16,5 +29,4 @@ main {
     display: block; }
 
 div {
-  border: solid 5px black;
   margin: 10px; }
